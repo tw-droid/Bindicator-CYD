@@ -5,7 +5,7 @@ Inspired by various Bin-indicators (hence, Bindicator), this was a fun little pr
 
 This means it will display live data (refreshing every minute, with a neat little progress bar at the bottom - or via the refresh button on the touch screen).
 
-Includes a custom list of keywords and colours - so if it finds the word 'Green' in the title, the background turns green. My recycling bin is yellow, so I have set it to turn yellow when it is recycyling day. Add your own!
+Includes a custom list of keywords and colours - so if it finds the word 'Green' in the title, the background turns green. My recycling bin is yellow, so I have set it to turn yellow when it is recycling day. Add your own!
 
 Load the .ino in the Arduino IDE. Setup your wifi settings. Create a new calendar within Google Calendars, and call it Bindicator. The google script (code.gs) is required to access the calendar. So you need to create a project in https://script.google.com/ using that script, then deploy it to the web (executing it as your google user), then paste the Web app URL into the arduino script variable.
 
